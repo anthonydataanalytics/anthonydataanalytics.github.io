@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<!--
+	Portfolio built on Hyperspace by HTML5 UP (html5up.net | @ajlkn)
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	HOW TO USE
+	1. Put this file in the root of the Hyperspace folder, replacing the original index.html.
+	2. Search for "EDIT" to find every place you can change text.
+	3. Search for "YOUR-" to find every image, link, or file you need to supply.
+-->
+<html>
+	<head>
+		<!-- EDIT: page title shown on the browser tab -->
+		<title>Anthony Emmanuel | Data Analyst Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Data analyst portfolio featuring Python and SQL projects." />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+  #projects .image {
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  #projects .content .inner {
+    padding: 3.5em 3em !important;
+  }
+</style>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro (EDIT: headline, tagline, buttons) -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Hi, I'm Anthony.</h1>
+							<p>Data Analyst turning raw data into clear, actionable insights with Python, SQL, Power BI, Tableau and Excel.</p>
+							<ul class="actions">
+								<li><a href="#projects" class="button scrolly">View Projects</a></li>
+								<li><a href="YOUR-RESUME.pdf" class="button" download>Download Resume</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- About (EDIT: photo and bio) -->
+					<section id="about" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/pic07.jpg" alt="Portrait of Anthony Chidera Emmanuel" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>About Me</h2>
+									<p>I’m a data analyst who enjoys turning raw data into clear, practical insights. I recently completed my data analytics training at Datafrik, where I built hands-on projects using Python, SQL, Power BI, Tableau and Excel.
+
+My portfolio includes an exploratory analysis of over 113,000 loan records in Python, a multi-table SQL investigation, an interactive Power BI sales dashboard, and an Excel sales performance analysis. I’m detail-oriented, curious about the story behind the numbers, and focused on making findings easy for anyone to understand.
+
+I’m looking for an entry-level data analyst role in any industry where I can apply these skills, keep learning, and help a team make better decisions with data.</p>
+									<ul class="actions">
+										<li><a href="#projects" class="button scrolly">See My Projects</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Projects: each <section> inside is one project. Copy a block to add another. -->
+					<section id="projects" class="wrapper style2 spotlights">
+
+						<!-- Project 1: Prosper Loan Data Exploration (Python) -->
+						<section>
+							<a href="#" class="image"><img src="images/pic08.jpg" alt="Charts from the Prosper loan data exploration" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Prosper Loan Data Exploration</h2>
+									<p>An exploratory data analysis of Prosper's loan dataset (113,937 loans and 81 columns) using Python in Jupyter Notebook. I examined how loan amounts and borrower interest rates relate to income range, employment status, and loan term, using histograms, count plots, box plots, and scatter plots to surface the patterns.</p>
+									<p><strong>Key findings:</strong> Borrowers in higher income ranges generally received larger loans. 60-month loans tended to be larger than 36-month and 12-month loans. Larger loans were generally associated with lower interest rates, and loan amounts showed clear outliers.</p>
+									<p><strong>Tools:</strong> Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook</p>
+									<ul class="actions">
+										<li><a href="https://github.com/anthonydataanalytics/prosper-loan-data-analysis" class="button">View Notebook</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<!-- Project 2: SQL Murder Mystery -->
+						<section>
+							<a href="#" class="image"><img src="images/pic09.jpg" alt="SQL queries from the SQL Murder Mystery" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>SQL Murder Mystery</h2>
+									<p>A data investigation of a murder in SQL City. I started from the crime scene report, identified the two witnesses, joined the person, interview, and check-in tables to read their statements, and used the clues about a gym membership number and a license plate to narrow the field to two suspects. Checking their interview records led to a confession and the identification of the murderer, Jeremy Bowers.</p>
+									<p><strong>Skills shown:</strong> SELECT, WHERE, AND, IN, LIKE, JOINs, date filtering, and following evidence across related tables.</p>
+									<p><strong>Tools:</strong> SQL</p>
+									<ul class="actions">
+										<li><a href="https://github.com/anthonydataanalytics/sql-murder-mystery" class="button">View Walkthrough</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<!-- Project 3: Power BI -->
+                        <section>
+                            <a href="#" class="image"><img src="images/pic10.jpg" alt="Sales Performance Analysis dashboard in Power BI" data-position="center center" /></a>
+                            <div class="content">
+                                <div class="inner">
+                                    <h2>Sales Performance Analysis Dashboard</h2>
+                                    <p>An interactive Power BI dashboard giving executives a clear view of Superstore sales from 2014 to 2017. It tracks total sales, profit, orders, and quantity sold, with sales trends by month, category, and region, top and bottom products, and Year, Region, and Category filters so users can explore the data themselves.</p>
+                                    <p><strong>Key insights:</strong> The business generated $2.30M in sales and $286K in profit. Sales rose 242.69% between January and December 2014, the West region led with about $0.73M, and Technology was the top category at 36.4% of sales.</p>
+                                    <p><strong>Tools:</strong> Power BI, Power Query, DAX, data visualization</p>
+                                    <ul class="actions">
+                                        <li><a href="https://drive.google.com/file/d/1pH7fsYsPdxwDW__EONOGqJd9a3rF9IBa/view?usp=sharing" class="button">View Dashboard</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+
+
+					</section>
+
+				<!-- Skills (EDIT: icons and text) -->
+					<section id="skills" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Skills</h2>
+							<p>The tools I use to take data from messy to meaningful.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Python</h3>
+									<p>Pandas, NumPy, Matplotlib and Seaborn for cleaning, exploring and visualizing data in Jupyter.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-database"></span>
+									<h3>SQL</h3>
+									<p>Joins, subqueries, common table expressions (CTEs), filtering, pattern matching and multi-table investigation in relational databases.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-chart-bar"></span>
+									<h3>Power BI</h3>
+									<p>Data preparation with Power Query, Data modeling and Dax measures for interactive dashboards.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-chart-pie"></span>
+									<h3>Tableau</h3>
+									<p>Interactive visualizations and dashboards that turn data into clear stories.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-table"></span>
+									<h3>Excel</h3>
+									<p>Power Query, PivotTables, XLOOKUP, INDEX, SUMIFS, and charts for clear practical analysis.</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Contact (EDIT: email and social links) -->
+					<section id="contact" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in Touch</h2>
+							<p>Interested in working together or just want to say hi? Send me a message below or reach me on LinkedIn or GitHub.</p>
+							<div class="split style1">
+								<section>
+									<!-- EDIT: replace YOUR-FORM-ID with the ID from your free Formspree form (formspree.io) -->
+									<form method="post" action="https://formspree.io/f/mnppbgra">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="email" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="button" /></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Email</h3>
+											<a href="mailto:YOUR-EMAIL@example.com">anthonyemma548@gmail.com</a>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>234 8137765197</span>
+										</li>
+										<li>
+											<h3>Address</h3>
+											<span>Owerri, Nigeria</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="https://www.linkedin.com/in/anthony-emmanuel-8a2b7a29b/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://github.com/anthonydataanalytics" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Anthony Emmanuel. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
